@@ -14,9 +14,9 @@ To install the required packages, run the following command:
 
 ## Usage
 
-Run the following command to execute the code:
+Run the following command in your terminal to execute the code:
 
-node fetch-data.js
+node crawler.js && node convert.js
 
 
 ## Code Description
