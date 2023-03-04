@@ -10,13 +10,13 @@ Before running the code, you need to have Node.js installed on your system. You 
 
 To install the required packages, run the following command:
 
-# npm install axios
+`npm install axios`
 
 ## Usage
 
 Run the following command in your terminal to execute the code:
 
-node crawler.js && node convert.js
+`node crawler.js && node convert.js`
 
 
 ## Code Description
