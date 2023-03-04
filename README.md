@@ -26,7 +26,7 @@ The code has two parts. The first part fetches the data from the Taifex website,
 ### Part 1 (crawler.js)
 
 This part of the code fetches the data from the Taifex website by month interval. The start and end dates can be adjusted by modifying the variables year, month, endYear, and endMonth. The fetchData function formats the dates, generates the URL, and makes the request using axios. The response data is appended to the result variable. Once all the data has been fetched, the fs.writeFile function is used to save the data as a CSV file.
-**Keep in mind that current implementation is fetching data of each month sequentially. If you want to fetch data of multiple months in parallel, you can use `Promise.all()` to fetch data of multiple months in parallel.**
+**Keep in mind that current implementation is fetching data of each month sequentially. If you want to fetch data of multiple months in parallel, you can use `Promise.all()` to fetch data of multiple months in parallel, but the order of data wouldn't be in chronologically order.**
 
 ### Part 2 (convert.js)
 
